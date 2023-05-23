@@ -82,7 +82,7 @@
 .Child3 button:hover{
     color: aquamarine;
 }
-@media screen and (min-width: 760px) {
+@media screen and (max-width: 760px) {
     .Parent{
         display: flex;
         flex-direction: column;
