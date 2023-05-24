@@ -80,3 +80,46 @@ ul.no-bullets{
     list-style-type: none;
     padding-left: 10px;
 }
+.first_blog{
+    color: black;
+    background-color:antiquewhite;
+}
+#Blog1{
+    color: black;
+}
+.first_blog p{
+    color: black;
+}
+.first_blog h2{
+    color: darkolivegreen;
+}
+.second_blog{
+    color: black;
+    background-color: beige;
+}
+.second_blog p{
+    color:black;
+}
+.second_blog h2{
+    color: lightsalmon;
+}
+.third_blog{
+    color:black;
+    background-color: bisque;
+}
+.third_blog p{
+    color: black;
+}
+.third_blog h2{
+    color: olive;
+}
+.fourth_blog{
+    color: black;
+    background-color: cornsilk;
+}
+.fourth_blog p{
+    color:black;
+}
+.fourth_blog h2{
+    color: tomato;
+}
