@@ -4,8 +4,8 @@
     background-image: url(../img/Market.jpg);
     background-size: cover;
     background-position: center;
-    justify-content: center;
     max-width: fit-content;
+    align-items: center;
 }
 .Child1{
     background-color: rgba(243, 86, 86, 0.9);
