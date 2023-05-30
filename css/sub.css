@@ -1,11 +1,13 @@
 .Parent{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-image: url(../img/Market.jpg);
     background-position: center;
     background-size: cover;
     width: 70%;
     margin: 1rem auto;
+    max-width: fit-content;
 }
 .Child1{
     background-color: rgba(243, 86, 86, 0.9);
@@ -89,9 +91,5 @@
     }
 }
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .Parent{
-        display: flex;
-        flex-flow: column wrap;
-    }
     
-}
+    }    
