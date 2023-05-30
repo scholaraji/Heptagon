@@ -3,8 +3,7 @@
     justify-content: center;
     background-image: url(../img/Market.jpg);
     background-position: center;
-    background-size: cover;
-    width: 100%;
+    background-size: contain;
     margin: 1rem auto;
     max-width: fit-content;
 }
@@ -93,5 +92,16 @@
     .Parent{
         display: flex;
         flex-wrap: wrap;
-    }   
+        background-position: top;
+        background-size: contain;
+    } 
+    .Child1{
+        flex: 0 1 auto;
+    }
+    .Child2{
+        flex: 0 1 auto;
+    }
+    .Child3{
+        flex: 0 1 auto;
+    }
 }    
