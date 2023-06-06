@@ -1,7 +1,7 @@
 .Parent{
     display: flex;
+    background-image: url(../img/Market.jpg );
     justify-content: center;
-    background-image: url(../img/Market.jpg);
     background-position: center;
     background-size: contain;
     margin: 1rem auto;
@@ -92,8 +92,7 @@
     .Parent{
         display: flex;
         flex-wrap: wrap;
-        background-position: top;
-        background-size: contain;
+        background-image: url(../img/Market.jpg);
     } 
     .Child1{
         flex: 0 1 auto;
