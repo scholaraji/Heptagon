@@ -61,22 +61,23 @@
     .sibling{
         position: relative;
         bottom: 18rem;
-        left: 25rem;
-        width: 34.5rem;
+        left: 26rem;
         border-radius: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .formm{
         margin-top: 7rem;
         margin-bottom: 2rem;
-        width: 45%;
+        width: 40%;
         margin-right: 10rem;
         border-radius: 1rem;
     }
     .form-input{
-        width: 310px;
+        width: 390px;
     }
     .subb{
-        width: 330px;
+        width: 390px;
     }
     .Family{
         margin: auto;
