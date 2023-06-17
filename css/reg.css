@@ -77,7 +77,6 @@
     .bodyd{
         background-color: hsla(0, 100%, 74%);
         background-image: url(../img/Boss.jpg);
-        background-blend-mode: multiply;
         padding-bottom: 8rem;
     }
     .big1{
