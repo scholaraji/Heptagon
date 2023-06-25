@@ -101,3 +101,95 @@
         width: 300px;
     }   
 }
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../img/bg-desktop.svg);
+    color: white;
+    height: 70vh;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    font-family:'Poppins', sans-serif;
+    align-items: center;
+    
+}
+.build{
+    margin-right: 3rem;
+}
+.logo{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+.regg{
+    background-color: white;
+    border: 1px solid white;
+    color: hsl(257, 40%, 49%);
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 3rem;
+    font-weight: 400;
+    font-size: medium;
+}
+footer{
+    word-spacing: 0.2rem;
+    text-align: right;
+    margin-right: 4rem;
+    margin-bottom: 20rem;
+}
+.face{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Insta{
+    width: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+.Tweet{
+    width: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media only screen and (max-width: 760px){
+    body{
+        background-image: url(../img/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .luss{
+        width: 380px;
+        margin-top: 3rem;
+    }
+    .build{
+        margin-top: 2rem;
+    }
+    .build h2{
+        font-size: 55px;
+    }
+    .build p{
+        font-size: 35px;
+    }
+    .regg{
+        width: 300px;
+        font-size: xx-large;
+    }
+    footer{
+        text-align: center;
+        margin-top: 5rem;
+    }
+}
