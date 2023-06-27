@@ -126,3 +126,25 @@ ul.no-bullets{
 .fourth_blog h2{
     color: tomato;
 }
+
+
+
+
+.pat{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.testimon{
+    background-color: slateblue;
+    width: fit-content;
+}
+.kiraa{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.testimoni{
+    background-color: white;
+    width: fit-content;
+}
