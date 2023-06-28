@@ -184,17 +184,17 @@ footer{
         flex-direction: column;
     }
     .luss{
-        width: 380px;
+        width: 250px;
         margin-top: 3rem;
     }
     .build{
         margin-top: 2rem;
     }
     .build h2{
-        font-size: 35px;
+        font-size: 30px;
     }
     .build p{
-        font-size: 20px;
+        font-size: 15px;
     }
     .regg{
         width: 300px;
