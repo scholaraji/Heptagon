@@ -181,7 +181,7 @@ footer{
     .wrapper{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
     .luss{
         width: 380px;
@@ -191,10 +191,10 @@ footer{
         margin-top: 2rem;
     }
     .build h2{
-        font-size: 50px;
+        font-size: 35px;
     }
     .build p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .regg{
         width: 300px;
