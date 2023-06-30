@@ -192,6 +192,8 @@ footer{
     }
     .build{
         margin-top: 2rem;
+        text-align: center;
+        padding-left: 1rem;
     }
     .build h2{
         font-size: 30px;
@@ -200,7 +202,7 @@ footer{
         font-size: 15px;
     }
     .regg{
-        width: 150px;
+        width: 180px;
         font-size: x-large;
     }
     footer{
