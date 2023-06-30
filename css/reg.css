@@ -182,31 +182,23 @@ footer{
     .wrapper{
         display: flex;
         flex-direction: column;
-    }
-    .logo{
-        text-align: center;
+        align-items: center;
     }
     .luss{
-        width: 300px;
-        margin-top: 3rem;
+        width: 18rem;
+        padding-left: 2rem;
     }
     .build{
-        margin-top: 2rem;
         text-align: center;
-        padding-left: 1rem;
-    }
-    .build h2{
-        font-size: 30px;
-    }
-    .build p{
-        font-size: 15px;
-    }
-    .regg{
-        width: 180px;
-        font-size: x-large;
+        padding-left: 5rem;
     }
     footer{
-        text-align: center;
-        margin-top: 9rem;
+        margin-top: 2rem;
+        padding-right: 2rem;
+    }
+    .regg{
+        font-size: large;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
