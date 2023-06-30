@@ -183,8 +183,11 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .logo{
+        text-align: center;
+    }
     .luss{
-        width: 250px;
+        width: 300px;
         margin-top: 3rem;
     }
     .build{
@@ -197,11 +200,11 @@ footer{
         font-size: 15px;
     }
     .regg{
-        width: 300px;
-        font-size: xx-large;
+        width: 150px;
+        font-size: x-large;
     }
     footer{
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 9rem;
     }
 }
