@@ -186,16 +186,16 @@ footer{
     }
     .luss{
         width: 18rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-right: 1rem;
     }
     .build{
         text-align: center;
-        padding-left: 5rem;
+        padding-right: 1rem;
+        padding-left: 3rem;
     }
     footer{
         margin-top: 2rem;
-        padding-right: 2rem;
+        padding-right: 3rem;
     }
     .regg{
         font-size: large;
