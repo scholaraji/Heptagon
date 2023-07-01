@@ -194,12 +194,15 @@ footer{
         padding-left: 3rem;
     }
     footer{
-        margin-top: 2rem;
-        padding-right: 3rem;
+        margin-top: 3rem;
+        padding-right: 4rem;
     }
     .regg{
         font-size: large;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    .logo{
+        text-align: left;
     }
 }
