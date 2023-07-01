@@ -177,7 +177,6 @@ footer{
     body{
         background-image: url(../img/bg-mobile.svg);
         background-color: hsl(257, 40%, 49%);
-        text-align: center;
     }
     .wrapper{
         display: flex;
@@ -186,7 +185,9 @@ footer{
     }
     .luss{
         width: 18rem;
-        padding-right: 1rem;
+    }
+    .logo{
+        padding-left: 1rem;
     }
     .build{
         text-align: center;
@@ -194,15 +195,13 @@ footer{
         padding-left: 3rem;
     }
     footer{
-        margin-top: 3rem;
-        padding-right: 4rem;
+        margin-top: 5rem;
+        text-align: center;
     }
     .regg{
         font-size: large;
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    .logo{
-        text-align: left;
-    }
+
 }
