@@ -78,7 +78,7 @@
         background-image: url(../img/Boss.jpg);
         background-color: hsla(0, 100%, 74%);
         background-size: cover;
-        padding-bottom: 8rem;
+        margin-bottom: 2rem;
     }
     .big1{
         display: flex;
@@ -86,13 +86,14 @@
     }
     .Family{
         margin: auto;
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
     .little1{
         text-align: center;
         margin: auto;
         width: 350px;
-        height: 500px;
+        height: 70vh;
+        margin-bottom: 2rem;
     }
     .form-input{
         width: 270px;
