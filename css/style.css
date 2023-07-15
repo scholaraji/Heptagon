@@ -174,10 +174,8 @@ hr{
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-left: 1rem;
     }
     .single-pro-details{
         text-align: left;
-        padding-bottom: 5rem;
     }
 }
