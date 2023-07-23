@@ -1,102 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap');
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    ;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap');
 body{
-    height: 70vh;
-    font-family:'Poppins', sans-serif;
-}
-.header{
+    height: 100vh;
     max-width: 1200px;
-    margin: auto;
+    margin: 2rem 0 auto;
     padding-left: 85px;
     padding-right: 85px;
-    
 }
-.container{
+.navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: space-between;
 }
-nav{
-    margin-left: 2.5rem;
+.menu-bar{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
 }
-nav ul{
-    display: inline-block;
+.links{
     list-style-type: none;
+    display: flex;
+    gap: 1.2rem;
+    margin-right: 20rem;
 }
-nav ul li{
-    display: inline-block;
-    margin-right: 5px;
-    color: lightgray;
+.links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
 }
 a{
+    color: black;
     text-decoration: none;
+    font-size: 12px;
+    padding-left: 7%;
 }
-.iconn{
-    width: 60px;
-    margin-left: 40%;
+.logo{
+    width: 29px;
+    padding-left: 1rem;
 }
 hr{
-    width: 95%;
-    margin-left: 2.5%;
-    color: lightslategray;
+    width: 93%;
+    margin-left: 7%;
+    color: lightgrey;
 }
-.product-details{
+.prod-details{
     display: flex;
 }
-.single-pro-details{
+.content{
     margin-top: 8rem;
     width: 95rem;
     padding-left: 4rem;
 }
-.single-pro-details h3{
+.content h3{
     color: hsl(26, 100%, 55%);
     padding-bottom: 10px;
 }
-.single-pro-details h2{
+.content h2{
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 25px;
 }
-.single-pro-details p{
+.content p{
     padding-bottom: 25px;
     line-height: 1.5rem;
 }
-.single-pro-details h4{
-    font-size: larger;
-}
-.small-container{
+.containner{
     display: flex;
     margin-top: 5rem;
     margin-left: 4rem;
 }
-.big-images img{
+.big-image img{
     border-radius: 1rem;
     width: 310px;
 }
-.small-image{
+.small-images{
     margin-top: 1rem;
 }
-.small-image img{
+.small-images img{
     width: 65px;
     border-radius: 0.9rem;
     cursor: pointer;
 }
-.small-image-group .small-image:hover{
+.small-containner .small-images:hover{
     color: hsl(25, 100%, 94%);
 }
-.product-details .small-container{
-    width: 40%;
-    margin-right: 50px;
-}
-.small-image-group{
+.small-containner{
     display: flex;
     justify-content: space-between;
 }
-.small-image{
+.prod-details .containner{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-images{
     flex-basis: 24%;
     cursor: pointer;
 }
@@ -136,46 +136,54 @@ hr{
     padding-right: 5px;
 }
 .button-pls{
-    background-color: hsl(25, 100%, 94%);
-    width: 105px;
+    border: 1px solid aliceblue;
+    border-radius: 0.6rem;
+    background-color: aliceblue;
+    width: 127px;
 }
 .button-pls .minus-btn{
     font-size: 30px;
-    background-color: hsl(25, 100%, 94%);
-    border-color: hsl(25, 100%, 94%);
     border: thin;
     color: hsl(26, 100%, 55%);
     padding-left: 10px;
+    background-color: aliceblue;
 }
 .button-pls .plus-btn{
     font-size: 22px;
-    background-color: hsl(25, 100%, 94%);
-    border-color: hsl(25, 100%, 94%);
     border: thin;
     color: hsl(26, 100%, 55%);
     padding-left: 25px;
+    background-color: aliceblue;
 }
 .button-pls .item-count{
     font-size: 18px;
-    background-color: hsl(25, 100%, 94%);
-    border-color: hsl(25, 100%, 94%);
     border: thin;
     color:black;
     padding-left: 20px;
 }
 .button-container{
     display: flex;
+    margin-top: 20px;
 }
 .buttn-1{
-    padding-left: 20px;
+    padding-left: 15px;
 }
-@media screen and (max-width: 600px) {
-    .product-details{
+@media screen and (max-width: 768px){
+    a{
+        font-size: larger;
+        padding-left: 10px;
+    }
+    .carrt{
+        padding-left: 12px;
+    }
+    .prod-details{
         display: flex;
         flex-direction: column;
-        text-align: center;
     }
-    .single-pro-details{
-        text-align: left;
+    .links{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
     }
 }

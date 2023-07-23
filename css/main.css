@@ -148,3 +148,184 @@ ul.no-bullets{
     background-color: white;
     width: fit-content;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap');
+body{
+    height: 70vh;
+    font-family:'Poppins', sans-serif;
+}
+.header{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 85px;
+    padding-right: 85px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    margin-left: 2.5rem;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 5px;
+    color: lightgray;
+}
+a{
+    text-decoration: none;
+}
+.iconn{
+    width: 60px;
+    margin-left: 40%;
+}
+hr{
+    width: 95%;
+    margin-left: 2.5%;
+    color: lightslategray;
+}
+.product-details{
+    display: flex;
+}
+.single-pro-details{
+    margin-top: 8rem;
+    width: 95rem;
+    padding-left: 4rem;
+}
+.single-pro-details h3{
+    color: hsl(26, 100%, 55%);
+    padding-bottom: 10px;
+}
+.single-pro-details h2{
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.single-pro-details p{
+    padding-bottom: 25px;
+    line-height: 1.5rem;
+}
+.single-pro-details h4{
+    font-size: larger;
+}
+.small-container{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.big-images img{
+    border-radius: 1rem;
+    width: 310px;
+}
+.small-image{
+    margin-top: 1rem;
+}
+.small-image img{
+    width: 65px;
+    border-radius: 0.9rem;
+    cursor: pointer;
+}
+.small-image-group .small-image:hover{
+    color: hsl(25, 100%, 94%);
+}
+.product-details .small-container{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-image-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-image{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.price-container h4{
+    text-decoration: line-through;
+    font-size: small;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+.discounted-price{
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 1px solid;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 4px;
+    border-color: hsl(25, 100%, 94%);
+}
+.original-price{
+    font-size: large;
+    font-weight: bold;
+}
+.img-button{
+    padding: 9px 75px;
+    border-radius: 10px;
+    background-color: hsl(26, 100%, 55%);
+    border-color: hsl(26, 100%, 55%);
+    color: white;
+    font-weight: bold;
+}
+.img-button img{
+    width: 20px;
+    padding-right: 5px;
+}
+.button-pls{
+    background-color: hsl(25, 100%, 94%);
+    width: 105px;
+}
+.button-pls .minus-btn{
+    font-size: 30px;
+    background-color: hsl(25, 100%, 94%);
+    border-color: hsl(25, 100%, 94%);
+    border: thin;
+    color: hsl(26, 100%, 55%);
+    padding-left: 10px;
+}
+.button-pls .plus-btn{
+    font-size: 22px;
+    background-color: hsl(25, 100%, 94%);
+    border-color: hsl(25, 100%, 94%);
+    border: thin;
+    color: hsl(26, 100%, 55%);
+    padding-left: 25px;
+}
+.button-pls .item-count{
+    font-size: 18px;
+    background-color: hsl(25, 100%, 94%);
+    border-color: hsl(25, 100%, 94%);
+    border: thin;
+    color:black;
+    padding-left: 20px;
+}
+.button-container{
+    display: flex;
+}
+.buttn-1{
+    padding-left: 20px;
+}
+@media screen and (max-width: 600px) {
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .single-pro-details{
+        text-align: left;
+    }
+}
