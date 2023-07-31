@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+}
+
+.first_part{
+    background-image: url(../img/desktop-image-hero-2.jpg);
+    height: 33rem;
+    grid-column: span 2;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+}
+.second_part{
+    background-color: white;
+    grid-column: span 2;
+}
