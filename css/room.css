@@ -1,23 +1,154 @@
-*{
-    box-sizing: border-box;
+@media screen and (min-width:768px){
+    .container1{
+        display: flex;
+    }
+    .container1 nav{
+        position: absolute;
+        left: 3%;
+    }
+    .fa-bars{
+        display: none;
+    }
+    .logo{
+        margin-left: 2rem;
+    }
+    .drop-down .logo{
+        display: flex;
+        margin-top: 2rem;
+    }
+    .drop-content{
+        display: flex;
+    }
+    .drop-content ul{
+        display: flex;
+        list-style: none;
+        gap: 25px;
+        margin-top: 30px;
+        font-weight: bolder;
+        margin-right: 1rem;
+    }
+    .drop-content a{
+        text-decoration: none;
+        color: white;
+    }
+    .drop-content .logo{
+        font-weight: bold;
+    }
+    .sub-container{
+        display: flex;
+    }
+    .furniture{
+        padding-left: 2rem;
+        padding-right: 1.5rem;
+        font-size: 14.5px;
+        padding-top: 3rem;
+        line-height: 25px;
+    }
+    .furniture h3{
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+    }
+    .main-content{
+        margin-left: 5rem;
+        margin-top: 7rem;
+    }
+    .main-content p{
+        line-height: 25px;
+    }
+    .main-content .shop-now{
+        letter-spacing: 0.7rem;
+        font-weight: bold;
+    }
+    .direction{
+        display: flex;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 16.9%;
+        background-color: black;
+        margin-top: 3.9rem;
+        padding: 15px;
+    }
+    .fa-chevron-left{
+        color: white;
+    }
+    .fa-chevron-right{
+        color: white;
+    }
+    .mobile-content{
+        display: none;
+    }
 }
-.container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr)
-}
-
-.first_part{
-    background-image: url(../img/desktop-image-hero-2.jpg);
-    height: 33rem;
-    grid-column: span 2;
-}
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    color: white;
-}
-.second_part{
-    background-color: white;
-    grid-column: span 2;
+@media screen and (max-width: 768px) {
+    .desktop-content{
+        display: none;
+    }
+    
+    .mobile-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-column{
+        position: absolute;
+        left: 8%;
+        top: 5%;
+    }
+    .drop-down{
+        display: flex;
+    }
+    .m-room{
+        padding-left: 7rem;
+    }
+    .mobile-direction{
+        display: flex;
+        margin-left: 15rem;
+        position: absolute;
+        margin-top: 17.1rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 16.9%;
+        background-color: black;
+        padding: 15px;
+    }
+    .fa-chevron-left{
+        color: white;
+    }
+    .fa-chevron-right{
+        color: white;
+    }
+    .fa-bars{
+        color: white;
+    }
+    .discovery{
+        padding-left: 1.5rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 3.5rem;
+    }
+    .discovery h3{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .discovery p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .discovery .shop-now{
+        letter-spacing: 0.7rem;
+        font-weight: bold;
+    }
+    .m-about{
+        padding-top: 2.5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 2.5rem;
+        padding-right: 1rem;
+    }
+    .m-about h3{
+        font-weight: bolder;
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+    .m-about p{
+        font-size: 15px;
+        line-height: 25px;
+    }
 }
