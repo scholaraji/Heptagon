@@ -86,6 +86,7 @@
     .mobile-container{
         display: flex;
         flex-direction: column;
+        max-width: 95%;
     }
     .mobile-column{
         position: absolute;
@@ -102,7 +103,7 @@
         display: flex;
         margin-left: 20.9rem;
         position: absolute;
-        margin-top: 22.7rem;
+        margin-top: 22.95rem;
         border: 2px solid black;
         justify-content: space-between;
         width: 16.9%;
