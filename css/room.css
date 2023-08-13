@@ -1,6 +1,13 @@
 @media screen and (min-width:768px){
     .container1{
         display: flex;
+        margin-top: -0.5rem;
+        
+    }
+    .main-container{
+        max-height: 35vh;
+        max-width: 100%;
+        margin-left: -0.5rem;
     }
     .container1 nav{
         position: absolute;
@@ -10,11 +17,11 @@
         display: none;
     }
     .logo{
-        margin-left: 2rem;
+        padding-left: 2rem;
     }
     .drop-down .logo{
         display: flex;
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
     .drop-content{
         display: flex;
@@ -49,7 +56,7 @@
         font-weight: bold;
     }
     .main-content{
-        margin-left: 5rem;
+        padding-left: 5rem;
         margin-top: 7rem;
     }
     .main-content p{
@@ -86,7 +93,10 @@
     .mobile-container{
         display: flex;
         flex-direction: column;
-        max-width: 95%;
+        width: 111%;
+        margin-left: -0.5rem;
+        margin-top: -0.4rem;
+        
     }
     .mobile-column{
         position: absolute;
