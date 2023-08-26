@@ -1,0 +1,83 @@
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.bullet{
+    position: relative;
+}
+.bullet::before {
+    content: "\2022"; /* Unicode character for bullet point */
+    position: absolute;
+    right: 0;
+    bottom: -27px;
+    margin-right: 48rem;
+    font-size: 55px;
+    color: #00a859;
+}
+.xparent-2{
+    display: flex;
+    justify-content: space-between;
+}
+.parent-2{
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    grid-column: 2/3;
+}
+.act-account{
+    display: flex;
+    justify-content: space-between;
+}
+.blo-account{
+    display: flex;
+    justify-content: space-between;
+}
+.bills{
+    display: flex;
+    justify-content: space-between;
+}
+.list .phone{
+    display: flex;
+    justify-content: space-between;
+}
+.parent-1{
+    width: 450px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+body{
+    background-color: lightgray;
+}
+.biller{
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    grid-column: 2/3;
+}
+.Grand-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.butt{
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.log-in{
+    margin-left: 50px;
+}
+.first-image{
+    text-align: center;
+}
