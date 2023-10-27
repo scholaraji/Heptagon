@@ -1,0 +1,285 @@
+.Parent{
+    display: flex;
+    background-image: url(../img/Market.jpg );
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    margin: 1rem auto;
+    max-width: fit-content;
+}
+.Child1{
+    background-color: rgba(243, 86, 86, 0.9);
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
+}
+.Child1 button{
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgba(243, 86, 86, 0.9);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.Child1 button:hover{
+    color: blue;
+}
+.Child2{
+    background-color: rgba(24, 158, 24, 0.895);
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
+}
+.Child2 button{
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgba(24, 158, 24, 0.895);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.Child2 button:hover{
+    color: rgb(189, 126, 165);
+}
+.Child3{
+    background-color: rgba(187, 124, 51, 0.9);
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
+}
+.Child3 button{
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    background-color: rgba(187, 124, 51, 0.9);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.Child3 button:hover{
+    color: aquamarine;
+}
+@media screen and (max-width: 760px) {
+    .Parent{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .Parent{
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(../img/Market.jpg);
+    } 
+    .Child1{
+        flex: 0 1 auto;
+    }
+    .Child2{
+        flex: 0 1 auto;
+    }
+    .Child3{
+        flex: 0 1 auto;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap');    
+.ttest{
+    
+    font-family:'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: aliceblue;
+    
+}
+.upp{
+    background-color: hsl(264, 40%, 49%);
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    grid-column: span 2;
+}
+.Dan{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: white;
+    margin-top: 2rem;
+}
+.content1{
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    padding-top: 1.1rem;
+}
+.Dan-content{
+    display: flex;
+}
+.lori{
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+.lori p{
+    font-size: larger;
+}
+.testim{
+    background-color: hsl(0, 0%, 81%);
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+}
+.Jona{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.bupp{
+    display: flex;
+}
+.Jona-content{
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    padding-top: 1.1rem;
+    text-align: center;
+}
+.loii{
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    line-height: 1.5;
+}
+.loii p{
+    font-size: larger;
+    text-align: left;
+}
+.testimo{
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    color: darkslategray;
+    border-radius: 2rem;
+    margin-left: 2rem;
+}
+.Jean{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.cupp{
+    display: flex;
+}
+.Jean-content{
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    padding-top: 1.1rem;
+}
+.loin{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+.loin p{
+    font-size: x-large;
+    text-align: left;
+}
+.testimon{
+    background-color: rgba(2, 29, 29, 0.824);
+    width: fit-content;
+    color: white;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+    grid-column: span 2;
+    
+}
+.dupp{
+    display: flex;
+}
+.pat{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.pat-content{
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    padding-top: 1.1rem;
+}
+.goin{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+.goin p{
+    font-size: large;
+}
+.testimoni{
+    background-color:white;
+    width: fit-content;
+    color: rgba(2, 29, 29, 0.824);
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.Fupp{
+    display: flex;
+}
+.kiraa{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.kira-content{
+    margin-left: 1rem;
+    padding-top: 1.1rem;
+}
+.foin{
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+}
+.foin p{
+    font-size: large;
+}
+@media screen and (max-width: 768px) {
+    .ttest{
+        display: flex;
+        flex-direction: column;
+    }
+}
