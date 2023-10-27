@@ -1,0 +1,50 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+.join{
+    color:#38cfd9
+}
+.money{
+    color: gold;
+}
+.Gain{
+    color: lightgray;
+}
+.Perfect{
+    color: lightgray;
+}
+.container{
+    width: 65%;
+    margin: 100px auto;
+}
+.row-one{
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.row-two{
+    display: flex;
+    color: white;
+}
+.col-one{
+    background-color: #23424a;
+    padding: 30px 100px 20px 40px;
+    width: 100%;
+    line-height: 2em;
+}
+.col-two{
+    background-color: #38cfd9;
+    padding: 30px 135px 20px 35px;
+    width: 100%;
+}
+.btn{
+    padding: 1em 6em 1em 6em;
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+}

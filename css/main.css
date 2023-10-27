@@ -8,49 +8,15 @@ h4{
     color: greenyellow;
     line-height: 1px;
 }
-.comm{
-    background-color: white;
-    padding-left: 30px;
-    box-sizing: border-box;
-    border-style: solid;
-    border: 5px;
-    width: 50%;
-    margin: auto;
-}
+
 #first{
     color: gray;
 }
-.Mont{
-    background-color: rgb(16, 128, 122);
-    padding-top: 61px;
-    padding-bottom: 25px;
-    padding-left: 30px;
-    box-sizing: border-box;
-    padding-right: 30px;
-    text-align: center;
-}
-#sube{
-    color: white;
-}
+
 p{
     color: white;
 }
-#butt{
-    color: white;
-    background-color: greenyellow;
-    padding-left: 55px;
-    padding-right: 105px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 4px;
-    border-color: greenyellow;
-    text-align: center;
-    box-sizing: border-box;
-}
-#wwwh{
-    color: white;
-    padding-left: 10px;
-}
+
 .lass{
     background-color: rgb(129, 199, 196);
     padding-top: 10px;
