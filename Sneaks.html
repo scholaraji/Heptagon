@@ -4,77 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <title>Sneakers</title>
     <link rel="stylesheet" href="css/sneaks.css">
+    <title>Sneakers</title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="menu-bar">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <a href="#"><h1>Sneakers</h1></a>
-            <ul class="links">
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">Men</a></li>
-                <li><a href="#">Women</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="right-side">
-                <img class="carrt" src="img/new_icon.png" alt="cart" width="85%">
-                <img class="logo" src="img/Logoo.jpg" alt="imagee" width="65%">
-            </div>
-        </div>
-    </header>
-    <hr>
-    <section class="prod-details">
-        <div class="containner">
-            <div class="big-image">
-                <img src="img/Sneaker 1.jpg" alt="sneaks" width="100%">
-                
-                <div class="small-containner">
-                    <div class="small-images">
-                        <img src="img/Sneaker 1.jpg" alt="sneaks" width="100%" class="small-img">
+    <div class="container">
+        <header>
+            <nav class="navigation">
+                <div class="nav-left">
+                    <!--Mobile menu button-->
+                    <div class="icon btn-active-toggle">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
-                    <div class="small-images">
-                        <img src="img/sneaker 2.jpg" alt="sneaks" width="100%" class="small-img">
+                    <div class="logo-box">
+                        <h3>sneakers</h3>
                     </div>
-                    <div class="small-images">
-                        <img src="img/sneaker 4.jpg" alt="sneaks" width="100%" class="small-img">
+                    <ul class="menu-items">
+                        <li><a href="#"></a>Collections</li>
+                        <li><a href="#"></a>Women</li>
+                        <li><a href="#"></a>Men</li>
+                        <li><a href="#"></a>About</li>
+                        <li><a href="#"></a>Contact</li>
+                    </ul>
+                    <!--End of Navigation Menu-->
+                </div>
+                <div class="nav-right">
+                    <i class="fa fa-shopping-cart cart-icon"></i>
+                    <img src="img/Logoo.jpg" alt="sneaker_logo" width="40px" height="35px">
+                </div>
+            </nav>
+        </header>
+        <!--End of Navigation Section-->
+        <main>
+            <div class="container2">
+                <!--Image Section for section 2-->
+                <div class="left-side">
+                    <div class="product-image">
+                        <img src="img/Sneaker 1.jpg" alt="" width="400" height="400">
                     </div>
-                    <div class="small-images">
-                        <img src="img/sneaker 3.jpg" alt="sneaks" width="100%" class="small-img">
+                    <div class="thumbnails">
+                        <div class="thumbnail-overlay">
+                            <img src="img/Sneaker 1.jpg" class="thumbnail" alt="sneaker_image"
+                            width="80" height="80">
+                        <div class="overlay"></div>
+                        </div>
+                        <div class="thumbnail-items">
+                            <img src="img/sneaker 2.jpg" class="thumbnail" alt="sneaker_image"
+                                width="80" height="80">
+                            <img src="img/sneaker 4.jpg" class="thumbnail" alt="sneaker_image"
+                                width="80" height="80">
+                            <img src="img/sneaker 5.jpg" class="thumbnail" alt="sneaker_image"
+                            width="80" height="80">
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="content">
-            <h3>SNEAKER COMPANY</h3>
-            <h2><b>Fall Limited Edition <bR>Sneakers</bR></b></h2>
-                <p>These low-profiles sneakers are your perfect casual wear</br>
-                   companion.Featuring a durable rubber outer sole, they'll </br>
-                   withstand everything the weather can offer.
-                </p>
-                <div class="price-container">
-                <span class="original-price"><b>$125.00</b></span>
-                <span class="discounted-price">50%</span>
-                <h4>$250.00</h4>
-                </div>
-                <div class="button-container">
-                    <div class="button-pls">
-                        <button class="minus-btn">-</button>
-                        <span class="item-count">0</span>
-                        <button class="plus-btn">+</button>
+                <!--Hero right side-->
+                <div class="hero-right">
+                    <div class="description">
+                        <div class="headings">
+                            <h4>SNEAKER COMPANY</h4>
+                            <h1>Fall Limited Edited <br /> Sneakers</h1>
+                        </div>
+                        <p> These low-profile sneakers are your perfect casual wear
+                            companion. Featuring a durable robber outer soul, they'll
+                            withstand everything the weather can offer.
+                        </p>
+                        <div class="price">
+                            <div class="original-price">
+                                <h2>$125.00</h2> <button class="off">50%</button>
+                            </div>
+                            <h5 class="old-price">$250.00</h5>
+                        </div>
                     </div>
-                     <div class="buttn-1">
-                        <button class="img-button">
-                        <img src="img/new_icon.png">
-                        <span>Add to Cart</span>
+                    <div class="buttons">
+                        <button class="incrementer"><a href="#">-</a> <span>0</span> <a href="#">+</a></button>
+                        <button class="cta">
+                            <i class="fa fa-shopping-cart cta-icon"></i>
+                            Add to Cart
                         </button>
                     </div>
                 </div>
-        </div>
-    </section>      
+            </div>
+        </main>
+        <!--End of Main Section-->
+        <script src="js/main.js"></script>
+    </div>
 </body>
 </html>
