@@ -18,25 +18,24 @@
     position: absolute;
     top: 4rem;
     left: 3rem;
-
-    ul{
+}
+ul{
         display: flex;
-        /* align-items: center; */
+        align-items: center;
         gap: 1rem;
 
-    }
-    li{
+}
+li{
         list-style: none;
-    }
-    a{
+}
+a{
         text-decoration: none;
         color: white;
         font-weight: 600;
-    }
-    a:hover{
+}
+a:hover{
         color: blue;
         transition: all .3s ease-out;
-    }
 }
 .container{
     display: flex;
@@ -46,14 +45,13 @@
 .right-col{
     margin-top: 9%;
     /* border: 2px solid red; */
-
-    h1{
+}
+h1{
         margin-bottom: 1rem;
-    }
-    p{
+}
+p{
         line-height: 1.5rem;
         font-size: .9rem;
-    }
 }
 .shop-now{
     margin-top: 1rem;
@@ -74,20 +72,20 @@
 }
 .content{
     padding: 3rem 0 0 2rem;
-    h3{
+}
+h3{
         letter-spacing: .5rem;
         margin-bottom: 1rem;
-    }
-    p{
+}
+p{
         font-size: .88rem;
         line-height: 1.4rem;
-    }
 }
 .direction{
     background-color:black;
     display:flex;
     width: 129px;
-    margin-top: 70px;
+    margin-top: 77px;
     margin-left: -85px;
     position: absolute;
     padding: 12px;
