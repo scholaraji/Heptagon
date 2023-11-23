@@ -3,81 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Payment Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link rel="stylesheet" href="css/pay.css">
-    <title>Grid</title>
 </head>
 <body>
-    <div class="Grand-parent">
-        <div class="parent-1">
-            <div class="first-image">
-                <img src="img/Sexy model.jpg" alt="the image" height="200px" width="300px">
-            </div>
-            <div class="profile">
-                <h4>My Profile</h4>
+    <div class="container">
+
+        <!--Card 1-->
+        <div class="card-1">
+            <img src="img/modell.webp" alt="modell" class="modell">
+            <div class="my-profile">
+                <h3>My Profile</h3>
                 <div class="log-in">
-                    <p>Last Login: 18 Aug 2023, 04:55</p>
+                    <p>Last Login: 18 Aug 2023, 04:55 </p>
                     <p>Windows 10 pro. New York city</p>
+                    
                 </div>
             </div>
-            <div class="name">
-                <span class="underlined">Jonathan Moss</span>
-                <span class="underline">+234 (81) 88416002</span>
+            <div class="my-profile name">
+                <p class="underline">Ajisafe Olanrewaju</p>
+                <p class="underline">+234 (81) 88416002</p>
             </div>
-            <p>Jonathanmoss007@gmail.com</p>
-            <hr>
-            <p class="bullet">SMS alerts activation</p>
-            <input type="button" value="Save">
+            <div class="my-profile mail">
+                <p>Ajisafeolanrewaju@gmail.com</p>
+            </div>
+            <div class="my-profile alert">
+                <p>SMS alerts activations <i class="fas fa-circle"></i></p>
+            </div>
+            <input type="button" value="Save" class="Save">
         </div>
-        <div class="parent-2">
-            <div class="xparent-2">
-                <p>My xpay accounts</p>
-                <i class="fas fa-search"></i>
-                <input type="button" value="Edit">
-            </div>
-            <hr>
-            <div class="account">
-                <div class="act-account">
-                    <div class="active-account">
-                        <p>Active account</p>
+
+        <!--Card 2-->
+
+        <div class="card-2">
+            <!--Column 1-->
+            <div class="column">
+                <div class="col x-account">
+                    <h3>My xPay accounts</h3>
+                    <div class="search">
+                        <i class="fas fa-search"></i>
+                        <input type="button" value="Edit" class="Edit">
+                    </div>
+                </div>
+                <div class="col active-account">
+                    <div class="account">
+                        <p>Active Account</p>
                         <p>8452 3909 3211 8473</p>
                     </div>
-                    <input type="button" value="Block Account" class="butt">
+                    <input type="button" value="Block Account" class="Blocked">
                 </div>
-                <div class="blo-account">
-                    <div class="blocked-account">
+                <div class="col blocked-account">
+                    <div class="account">
                         <p>Blocked account</p>
                         <p>0123 3467 8723 9830</p>
                     </div>
-                    <input type="button" value="Unblock account" class="buton">
+                    <input type="button" value="Unblock account" class="unblocked">
                 </div>
             </div>
-        </div>
-        <div class="biller">
-            <div class="bills">
-                <p>My bills</p>
-                <input type="button" value="filter by">
-            </div>
-            <hr>
-            <div class="list">
-                <ul>
-                    <div class="phone">
-                        <li>phone bill</li>
-                        <input type="button" value="Bill paid">
-                    </div>
-                    <div class="phone">
-                        <li>Internet bill</li>
-                        <input type="button" value="Not paid">
-                    </div>
-                    <div class="phone">
-                        <li>House rent</li>
-                        <input type="button" value="Bill paid">
-                    </div>
-                    <div class="phone">
-                        <li>Income tax</li>
-                        <input type="button" value="Bill paid">
-                    </div>
-                </ul>
+
+            <!--Column 2-->
+
+            <div class="column">
+                <div class="col bills">
+                    <h3>My bills</h3>
+                    <input type="button" value="Filter by" class="Filter">
+                </div>
+                <div class="col phone">
+                    <i class="fas fa-circle"></i><p>Phone bill</p>
+                    <input type="button" value="Bill paid" class="colu bill">
+                </div>
+                <div class="col Internets">
+                    <i class="fas fa-circle"></i><p>Internet bill</p>
+                    <input type="button" value="Not paid" class="Internet">
+                </div>
+                <div class="col House">
+                    <i class="fas fa-circle"></i><p>House rent</p>
+                    <input type="button" value="Bill paid" class="colu House">
+                </div>
+                <div class="col income">
+                    <i class="fas fa-circle"></i><p>Income tax</p>
+                    <input type="button" value="Bill paid" class="colu Income">
+                </div>
             </div>
         </div>
     </div>

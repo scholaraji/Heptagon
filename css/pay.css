@@ -1,83 +1,480 @@
-.profile{
-    display: flex;
-    justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap');
+html{
+    scroll-behavior: smooth;
 }
-.name{
-    display: flex;
-    justify-content: center;
-}
-.bullet{
-    position: relative;
-}
-.bullet::before {
-    content: "\2022"; /* Unicode character for bullet point */
-    position: absolute;
-    right: 0;
-    bottom: -27px;
-    margin-right: 48rem;
-    font-size: 55px;
-    color: #00a859;
-}
-.xparent-2{
-    display: flex;
-    justify-content: space-between;
-}
-.parent-2{
-    border: 2px solid #fff;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #fff;
-    grid-column: 2/3;
-}
-.act-account{
-    display: flex;
-    justify-content: space-between;
-}
-.blo-account{
-    display: flex;
-    justify-content: space-between;
-}
-.bills{
-    display: flex;
-    justify-content: space-between;
-}
-.list .phone{
-    display: flex;
-    justify-content: space-between;
-}
-.parent-1{
-    width: 450px;
-    border: 2px solid #fff;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #fff;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: 3;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
 }
-.biller{
-    border: 2px solid #fff;
-    padding: 20px;
+.container{
+    width: 60%;
+    margin: 2em auto;
+    background-color: whitesmoke;
+    display: flex;
+}
+.card-1{
+    width: 40%;
+    background-color: white;
+    margin-left: 3em;
+    margin-right: 2em;
+    margin-block: 2em;
+    padding-block: 1em;
+    border: 2px solid white;
     border-radius: 20px;
-    background-color: #fff;
-    grid-column: 2/3;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
-.Grand-parent{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+.my-profile{
+    display: flex;
+    column-gap: 3em;
+    padding-block: 1.3em;
+    padding-inline: 1em;
 }
-.butt{
-    font-size: 12px;
-    padding: 5px 10px;
-    border-radius: 30px;
+.mail{
+    border-bottom: 1px solid gray;
 }
 .log-in{
-    margin-left: 50px;
+    padding-left: 1em;
 }
-.first-image{
-    text-align: center;
+.name .underline{
+    border-bottom: 1px solid gray;
+}
+.alert .fa-circle{
+    padding-left: 1.5em;
+    color: green;
+}
+.alert{
+    color:rgba(255, 69, 0, 1);
+}
+.Save{
+    color: white;
+    padding: .5em 2em;
+    border: 1px solid rgba(255, 69, 0, 1);
+    background-color: rgba(255, 69, 0, 1);
+    border-radius: 25px;
+    margin-inline: 8em;
+    margin-block: 1em;
+}
+.modell{
+    width: 100%;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+.col{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+.card-2{
+    margin-top: .5em;
+}
+.x-account{
+    border-bottom: 1px solid gray;
+    padding-bottom: .5em;
+    font-size: 1.25em;
+    margin-bottom: .75em;
+}
+.x-account .search{
+    padding-left: 5em;
+}
+.search .fas{
+    padding-right: 1em;
+}
+.search .Edit{
+    border-radius: 20px;
+    padding: 5px 20px;
+    border-color: white;
+}
+.column{
+    background-color: white;
+    margin-block: 1em;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Blocked{
+    color: white;
+    background-color: rgba(255, 69, 0, 1);
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin-left: 6.5em;
+    border-color: rgba(255, 69, 0, 1);
+}
+.blocked-account{
+    margin-block:2.5em;
+}
+.unblocked{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin-left: 6.5em;
+    border-color: greenyellow;
+}
+.Filter{
+    border-radius: 1.5em;
+    padding: 4px 10px;
+    margin-left: 15em;
+    margin-bottom: .75em;
+}
+.bills{
+    border-bottom: 1px solid gray;
+}
+.column .col .fa-circle{
+    padding-right: 1em;
+    color: greenyellow;
+}
+.Internet{
+    margin-left: 12em;
+    background-color: rgba(255, 69, 0, 1);
+    border-radius: 1.5em;
+    border-color: rgba(255, 69, 0, 1);
+    padding: 4px 10px;
+}
+.column .Internets .fa-circle{
+    color: rgba(255, 69, 0, 1);
+}
+
+.colu{
+    margin-left: 12em;
+    background-color: greenyellow;
+    border-radius: 1.5em;
+    border-color: greenyellow;
+    padding: 4px 10px;
+}
+@media (max-width:912px){
+    .container{
+        width: 100%;
+        margin:0 auto;
+        height: auto;
+    }
+    .card-1{
+        margin-left: 5rem;
+    }
+    .column{
+        margin-left: 1rem;
+    }
+}
+@media (max-width:830px){
+    .container{
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        overflow-x: hidden;
+        margin: 0 auto;
+        box-sizing: border-box;
+        flex-direction: column;
+        font-size: 1.8em;
+    }
+    .modell{
+        max-width: 100%;
+        height: auto;
+        margin-right: 20em;
+    }
+    .card-1{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .my-profile{
+        padding-inline: 4em;
+    }
+    .log-in{
+        padding-left: 5em;
+    }
+    .name{
+        column-gap: 5rem;
+    }
+    .Save{
+        margin-left: 22em;
+    }
+    .column h3{
+        font-size: 1.3em;
+    }
+    .column{
+        padding-inline: 4em;
+        margin-bottom: 1.5em;
+    }
+    .Blocked{
+        margin-left: 19em;
+        margin-block: .5em;
+    }
+    .unblocked{
+        margin-left: 19em;
+        margin-block: .5em;
+    }
+    .Filter{
+        margin-left: 20em;
+    }
+    .colu{
+        margin-left: 25em;
+    }
+    .Filter{
+        margin-left: 28em;
+    }
+    .Internet{
+        margin-left: 25em;
+    }
+}
+@media (max-width:760px){
+    .container{
+        display: flex;
+        margin: 0 auto;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        flex-direction: column;
+        font-size: 1.8em;
+    }
+    .unblocked{
+        margin-left: 15rem;
+    }
+}
+@media (max-width:600px){
+    .container{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+        font-size: 1.15em;
+    }
+    .my-profile{
+        margin-inline: 1.5rem;
+    }
+    .name{
+        column-gap: 7.5rem;
+    }
+    .column{
+        margin-inline: 1em;
+    }
+    .x-account{
+        margin-inline: 1.5rem;
+    }
+    .log-in{
+        margin-left: 4rem;
+    }
+    .Save{
+        margin-left: 15rem;
+    }
+    .search{
+        margin-left: 4rem;
+    }
+    .col{
+        margin-inline: 1rem;
+    }
+    .Filter{
+        margin-left: 18rem;
+    }
+    .Blocked{
+        margin-block: .2rem;
+        margin-left: 12rem;
+    }
+    .unblocked{
+        margin-left: 12rem;
+        margin-block: 0.8rem;
+    }
+    .colu{
+        margin-left: 17rem;
+    }
+    .Internet{
+        margin-left: 17rem;
+    }
+}
+@media (max-width:540px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        flex-direction: column;
+        font-size: 1em;
+    }
+    .Save{
+        margin-left: 10rem;
+    }
+    .search{
+        margin-left: 1em;
+    }
+    .Blocked{
+        margin-left: 10rem;
+    }
+    .unblocked{
+        margin-left: 9.5rem;
+    }
+    .Filter{
+        margin-left: 16rem;
+    }
+    .colu{
+        margin-left: 15rem;
+    }
+    .Internet{
+        margin-left: 15rem;
+    }
+}
+@media (max-width:430px){
+    .container{
+        display: flex;
+        margin: 0 auto;
+        box-sizing: border-box;
+        flex-direction: column;
+        font-size: 1em;
+        width: 100%;
+    }
+    .card-1{
+        width: 100%; 
+    }
+    .log-in{
+        margin-left: -1.7rem;
+    }
+    .name{
+        column-gap: 2rem;
+    }
+    .Save{
+        padding: .5em;
+        margin-left: 12rem;
+    }
+    .column h3{
+        font-size: 1.125em;
+    }
+    .search{
+        margin-left: -1em;
+    }
+    .search .Edit{
+        padding-inline: .5em;
+        font-size: 1.125em;
+    }
+    .Blocked{
+        margin-left: 4.8rem;
+        padding-inline: 0.5em;
+    }
+    .unblocked{
+        margin-left: 3.9rem;
+        padding-inline: .5em;
+    }
+    .Filter{
+        padding: .3em;
+        font-size: 1.1em;
+        margin-left: 11rem;
+    }
+    .colu{
+        padding: .2em;
+        font-size: 1.1em;
+        margin-left: 9.5rem;
+    }
+    .Internet{
+        padding: .2em;
+        margin-left: 9rem;
+        font-size: 1.1em;
+    }
+}
+@media (max-width:320px){
+    .container{
+        display: flex;
+        margin: 0 auto;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 100%;
+        font-size: .7em;
+    }
+    
+    .Save{
+        font-size: 1.125em;
+        margin-left: 8rem;
+        padding-inline: 7px;
+        padding-block: 4px;
+    }
+    .column h3{
+        font-size: 11px;
+    }
+    .search .Edit{
+        font-size: 1.125em;
+        padding-inline: .5em;
+        padding-block: .5em;
+    }
+    .Blocked{
+        font-size: 1.125em;
+        margin-left: 4.1rem;
+    }
+    .unblocked{
+        margin-left: 3.5rem;
+        font-size: 1.125em;
+    }
+    .Filter{
+        font-size: 1.125em;
+        padding-inline: .5em;
+        margin-left: 7.5rem;
+    }
+    .colu{
+        font-size: 1.125em;
+        margin-left: 7rem;
+        padding-block: .1em;
+        padding-inline: .4em;
+    }
+    .Internet{
+        font-size: 1.125em;
+        margin-left: 6.5rem;
+        padding-block: .1em;
+        padding-inline: .4em;
+    }
+}
+@media (max-width:280px){
+    .container{
+        display: flex;
+        margin: 0 auto;
+        box-sizing: border-box;
+        flex-direction: column;
+        font-size: .6em;
+        width: 100%;
+    }
+    .column h3{
+        font-size: 1.1em;
+    }
+    .search{
+        margin-left: 1em;
+    }
+    .search .Edit{
+        margin-left: .1rem;
+        font-size: 1em;
+    }
+    .Save{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .Blocked{
+        margin-left: 9em;
+        padding-inline: .2em;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    .unblocked{
+        padding-inline: .1em;
+        margin-left: 8em;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .Filter{
+        margin-left: 6rem;
+        font-size: 1.125em;
+        font-weight: bold;
+    }
+    .colu{
+        margin-left: 5rem;
+        font-weight: bold;
+        font-size: 1.125em;
+    }
+    .Internet{
+        margin-left: 5rem;
+        font-size: 1.125em;
+        font-weight: bolder;
+    }
 }
