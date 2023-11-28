@@ -168,6 +168,7 @@ body{
 }
 @media (max-width: 768px){
     .container{
+        white-space: nowrap;
         display: flex;
         overflow-x: hidden;
         margin: 0 auto;
@@ -226,6 +227,7 @@ body{
 }
 @media (max-width:760px){
     .container{
+        white-space: nowrap;
         display: flex;
         margin: 0 auto;
         overflow-x: hidden;
@@ -291,6 +293,7 @@ body{
 }
 @media (max-width:540px){
     .container{
+        white-space: nowrap;
         width: 100%;
         margin: 0 auto;
         display: flex;
@@ -323,6 +326,7 @@ body{
 }
 @media (max-width:430px){
     .container{
+        white-space: nowrap;
         display: flex;
         margin: 0 auto;
         box-sizing: border-box;
@@ -379,6 +383,7 @@ body{
 }
 @media (max-width:412px){
     .container{
+        white-space: nowrap;
         display: flex;
         margin: 0 auto;
         box-sizing: border-box;
@@ -389,6 +394,7 @@ body{
 }
 @media (max-width:320px){
     .container{
+        white-space: nowrap;
         display: flex;
         margin: 0 auto;
         box-sizing: border-box;
@@ -439,6 +445,7 @@ body{
 }
 @media (max-width:280px){
     .container{
+        white-space: nowrap;
         display: flex;
         margin: 0 auto;
         box-sizing: border-box;
