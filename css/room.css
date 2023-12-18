@@ -130,10 +130,10 @@ p{
         justify-content: space-around;
         position: absolute;
         right: .0rem;
-        top: 21.2rem;
+        top: 33.2rem;
     }
     .m-prev{
-        padding: 0 .6rem 0 0;
+        padding: 0 .9rem 0 0;
     }
     .m-next{
         padding: 0 0 0 .6rem;
@@ -147,7 +147,7 @@ p{
        margin-left: 7rem;
     }
     .discovery{
-        margin: 2.5rem 0 2rem 2rem;
+        margin: 2.5rem 0 2rem 4rem;
     }
     h3{
         font-size: 24px;
@@ -155,7 +155,7 @@ p{
         margin-bottom: 1rem;
     }
     p{
-        font-size: .9rem;
+        font-size: 1.1rem;
         line-height: 1.5rem;
     }
     .shop-now{
@@ -163,9 +163,72 @@ p{
     }
 }
 .m-about{
-    margin: 2.5rem 0 2rem 2rem;
+    margin: 2.5rem 0 2rem 4rem;
     h3{
         font-size: 24px;
         font-weight: 700;
+    }
+}
+@media (max-width: 414px){
+    .mobile-direction{
+        position: absolute;
+        top: 22rem;
+    }
+    P{
+        font-size: .9rem;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .discovery{
+        margin: 2.5rem 0 0 2rem;
+    }
+    .m-about h3{
+        font-size: 15px;
+    }
+    .m-about{
+        margin: 2.5rem 0 2rem 2rem;
+    }
+}
+@media (min-width: 393px){
+    .mobile-direction{
+        position: absolute;
+        top: 20.8rem;
+    }
+}
+@media (min-width: 384px){
+    .mobile-direction{
+        position: absolute;
+        top: 20.2rem;
+    }
+    h3{
+        font-size: 18px;
+    }
+}
+@media (min-width: 375px){
+    .mobile-direction{
+        position: absolute;
+        top: 19.7rem;
+    }
+    .discovery h3{
+        font-size: 18px;
+    }
+}
+@media (min-width: 360px){
+    .mobile-direction{
+        position: absolute;
+        top: 18.8rem;
+    }
+}
+@media (min-width: 320px){
+    .mobile-direction{
+        position: absolute;
+        top: 16.4rem;
+    }
+    .discovery{
+        margin: .8rem;
+    }
+    .m-about{
+        margin: .8rem;
     }
 }

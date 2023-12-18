@@ -173,6 +173,59 @@ footer{
     background-color: hsl(300, 69%, 61%);
     opacity: 0.6;
 }
+@media (max-width: 1024px){
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3rem;
+    }
+    .build{
+        margin-right: 5em;
+        margin-top: 10rem;
+    }
+    h2{
+        font-size: 1.9em;
+        font-weight: 600;
+    }
+    .logo .luss{
+        width: 90%;
+    }
+}
+@media (max-width: 834px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+    .immage{
+        width: 25%;
+        position: absolute;
+    }
+    .logo .luss{
+        width: 95%;
+        margin-top: 6rem;
+    }
+    .build{
+        text-align: center;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .build p{
+        line-height: 10px;
+        font-weight: 500;
+    }
+    .regg{
+        margin-top: 2rem;
+        padding-inline: 16rem;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    footer{
+        margin-top: 3rem;
+       margin-right: 20rem;
+    }
+}
 @media only screen and (max-width: 760px){
     body{
         background-image: url(../img/bg-mobile.svg);
@@ -205,4 +258,17 @@ footer{
         padding-right: 1rem;
     }
 
+}
+@media (max-width: 600px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .build h2{
+        margin-top: -4rem;
+    }
+    .build p{
+        line-height: 1.2em;
+        font-size: 1.2em;
+    }
 }

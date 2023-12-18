@@ -160,10 +160,16 @@ body{
         margin-left: 1rem;
     }
 }
-@media (max-width:830px){
+@media (max-width:800px){
     .container{
         width: 100%;
         height: fit-content;
+    }
+    .card-1{
+        margin-right: 2rem;
+    }
+    .card-2{
+        margin-right: 1.5rem;
     }
 }
 @media (max-width: 768px){
@@ -331,7 +337,7 @@ body{
         margin: 0 auto;
         box-sizing: border-box;
         flex-direction: column;
-        font-size: 1em;
+        font-size: 1.1em;
         width: 100%;
     }
     .card-1{
@@ -348,14 +354,14 @@ body{
         margin-left: 12rem;
     }
     .column h3{
-        font-size: 1.125em;
+        font-size: 1.126em;
     }
     .search{
         margin-left: -1em;
     }
     .search .Edit{
         padding-inline: .5em;
-        font-size: 1.125em;
+        font-size: 1.126em;
     }
     .Blocked{
         margin-left: 4.8rem;
@@ -367,12 +373,12 @@ body{
     }
     .Filter{
         padding: .3em;
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin-left: 11rem;
     }
     .colu{
         padding: .2em;
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin-left: 9.5rem;
     }
     .Internet{
@@ -389,7 +395,7 @@ body{
         box-sizing: border-box;
         flex-direction: column;
         width: 100%;
-        font-size: .9em;
+        font-size: .98em;
     }
 }
 @media (max-width:320px){
@@ -400,17 +406,17 @@ body{
         box-sizing: border-box;
         flex-direction: column;
         width: 100%;
-        font-size: .7em;
+        font-size: .77em;
     }
     
     .Save{
-        font-size: 1.125em;
+        font-size: 1.129em;
         margin-left: 8rem;
         padding-inline: 7px;
         padding-block: 4px;
     }
     .column h3{
-        font-size: 11px;
+        font-size: 11.5px;
     }
     .search .Edit{
         font-size: 1.125em;
@@ -418,12 +424,12 @@ body{
         padding-block: .5em;
     }
     .Blocked{
-        font-size: 1.125em;
+        font-size: 1.129em;
         margin-left: 4.1rem;
     }
     .unblocked{
         margin-left: 3.5rem;
-        font-size: 1.125em;
+        font-size: 1.129em;
     }
     .Filter{
         font-size: 1.125em;
@@ -431,13 +437,13 @@ body{
         margin-left: 7.5rem;
     }
     .colu{
-        font-size: 1.125em;
+        font-size: 1.128em;
         margin-left: 7rem;
         padding-block: .1em;
         padding-inline: .4em;
     }
     .Internet{
-        font-size: 1.125em;
+        font-size: 1.128em;
         margin-left: 6.5rem;
         padding-block: .1em;
         padding-inline: .4em;
