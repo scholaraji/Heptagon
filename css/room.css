@@ -108,3 +108,24 @@ h3{
     font-size: 22px;
     padding-left: 20px;
 }
+@media (max-width: 1440px){
+    .hero-2{
+        width: 800px;
+    }
+    .direction{
+        background-color:black;
+        display:flex;
+        width: 12.3%;
+        margin-top: 139px;
+        margin-left: -112px;
+        position: absolute;
+        padding: 12px;
+        border: 2px solid black;
+    }
+    .image-about-light{
+        width: 32%;
+    }
+    .image-about-dark{
+        width: 32%;
+    }
+}
