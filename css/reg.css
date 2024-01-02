@@ -249,8 +249,7 @@ footer{
     }
     footer{
         margin-top: 5rem;
-        text-align: center;
-        padding-left: 1rem;
+        margin-left: 6rem;
     }
     .regg{
         font-size: large;
@@ -270,5 +269,12 @@ footer{
     .build p{
         line-height: 1.2em;
         font-size: 1.2em;
+    }
+    footer{
+        text-align: center;
+        margin-left: 8rem;
+    }
+    .face{
+        margin-left: -.5rem;
     }
 }
